@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --dark-moderate-cyan: hsl(168, 34%, 41%);
+}
+
+/* UTILITY */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* HEADER */
+header {
+  background: url("../images/desktop/image-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+}
+
+.ham-display,
+.hamburger {
+  display: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px;
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 25px;
+}
+
+nav a {
+  color: #fff;
+}
+
+.contact {
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: #000;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h1 {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 10px;
+  margin: 70px 0;
+}
+
+/* SECTION BODY */
+.product {
+  display: flex;
+  height: 600px;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+}
+
+.under {
+  border: 5px solid rgb(248, 125, 145);
+  width: 100px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 7px;
+  opacity: 0.5;
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text h2,
+.text p {
+  margin-bottom: 20px;
+}
+
+.text-img {
+  background: url("../images/desktop/image-transform.jpg") no-repeat center
+    center/cover;
+  width: 50%;
+}
+
+.text-img-2 {
+  background: url("../images/desktop/image-stand-out.jpg") no-repeat center
+    center/cover;
+  width: 50%;
+}
+
+.text-img-3 {
+  background: url("../images/desktop/image-graphic-design.jpg") no-repeat center
+    center/cover;
+  width: 50%;
+}
+.text-img-4 {
+  background: url("../images/desktop/image-photography.jpg") no-repeat center
+    center/cover;
+  width: 50%;
+}
+
+.content {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 400px;
+}
+
+.content h3 {
+  margin: 20px 0;
+}
+
+/* TESTIMONIALS */
+.customers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  height: 100%;
+}
+
+.c {
+  width: 28%;
+}
+
+.c img {
+  border-radius: 50%;
+}
+
+.testimonial h4 {
+  text-align: center;
+  position: relative;
+  top: 22%;
+  font-size: 20px;
+}
+
+/* SHOWCASE */
+.gallery {
+  width: 25%;
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; */
+}
+
+.text-img-5 {
+  background: url("../images/desktop/image-gallery-milkbottles.jpg") no-repeat
+    center center/cover;
+}
+.text-img-6 {
+  background: url("../images/desktop/image-gallery-orange.jpg") no-repeat center
+    center/cover;
+}
+.text-img-7 {
+  background: url("../images/desktop/image-gallery-cone.jpg") no-repeat center
+    center/cover;
+}
+.text-img-8 {
+  background: url("../images/desktop/image-gallery-sugarcubes.jpg") no-repeat
+    center center/cover;
+}
+
+/* FOOTER */
+footer {
+  height: 300px;
+  background-color: var(--dark-moderate-cyan);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.foot {
+  color: #fff;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer a,
+h3 {
+  color: var(--dark-desaturated-cyan);
+}
+
+footer h3 {
+  font-weight: 900;
+}
+
+footer ul li a {
+  margin: 0 20px;
+}
